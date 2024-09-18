@@ -1,0 +1,41 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+table {
+    width: 100%;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .filter-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .spinner-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .spinner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3); /* Translucent background to make the table visible */
+    z-index: 1000;
+  }
